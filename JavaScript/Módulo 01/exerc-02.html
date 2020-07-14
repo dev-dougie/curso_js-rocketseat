@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números pares em um intervalo.</title>
+</head>
+
+<body>
+    <!--Usando JS obstrusivo-->
+    <script>
+    //ENUNCIADO: Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
+
+        function pares(x, y){
+            //varivel de controle i
+            for(var i = x; i <= y; i++){
+                if(i % 2 === 0){
+                    console.log(i);
+                }
+            }
+        }
+
+        //realizando a chamada da função parametizada
+        pares(32, 321);
+    </script>
+    
+</body>
+</html>

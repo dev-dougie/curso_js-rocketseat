@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiência do usuário.</title>
+</head>
+
+<body>
+    <!--Usando JS obstrusivo-->
+    <script>
+    //ENUNCIADO: Escreva uma função que dado um total de anos de estudo retorna o quão experiente o usuário é.
+
+     var anosEstudo = 17;
+
+     function experiencia(anos){
+         if(anos <= 1){
+             console.log("Iniciante");
+         }
+         else if(anos > 1 && anos <=3){
+             console.log("Intermediário");
+         }
+         else if(anos > 3 &&  anos <=7){
+             console.log("Intermediário");
+         }else{
+             console.log("Jedi Master");
+         }
+     }
+
+     //chamada da função
+     experiencia(anosEstudo);
+    
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Dougl\.yarn\releases\yarn-1.22.4.js add webpack webpack-cli
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Dougl\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Dougl\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\Dougl\AppData\Local\Programs\Python\Python38;C:\Users\Dougl\AppData\Local\Microsoft\WindowsApps;C:\Users\Dougl\AppData\Local\atom\bin;C:\Users\Dougl\AppData\Roaming\npm;C:\Users\Dougl\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Dougl\Desktop\Rocketseat\Curso JS - Rocketseat\ES6+\Desafios\Módulo 02\package.json: Unexpected token , in JSON at position 84
+      at JSON.parse (<anonymous>)
+      at C:\Users\Dougl\.yarn\releases\yarn-1.22.4.js:1098:57
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Dougl\.yarn\releases\yarn-1.22.4.js:310:30)
+      at C:\Users\Dougl\.yarn\releases\yarn-1.22.4.js:321:13
+
+npm manifest: 
+  {
+    "name": "yarn",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  },
+   scripts:{
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

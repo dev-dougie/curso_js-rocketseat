@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrando valores de um objeto.</title>
+</head>
+<body>
+    <!--Usando JS obstrusivo-->
+    <script>
+
+        //criação do meu objeto "endereco"
+        var endereco = {
+            rua: "Rua dos Pinheiros",
+            numero: 1293,
+            cidade: "São Paulo",
+            bairro: "Centro",
+            uf: "SP"
+        }
+
+        //função dados
+        function dados(end){
+            var resultado = console.log("O usuário mora em " + endereco.cidade + "/" + endereco.uf + " no bairro " + endereco.bairro +
+            ", na rua " + endereco.rua + " n° " + endereco.numero);
+            return resultado;
+        }
+
+    
+     //chamada da função
+     dados();
+
+
+    </script>
+    
+</body>
+</html>

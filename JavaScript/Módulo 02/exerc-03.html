@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somethin</title>
+</head>
+<body>
+
+    <input type = "button" onclick="gerarLista()" value = "GERAR"><br>
+    <ul id="lista"></ul>
+
+    <script>
+
+    function gerarLista(){
+        var nomes = ['Diego', 'Gabriel', 'Lucas'];
+        var lista = document.getElementbyId('lista');
+        for(var i = 0; i< nomes.length; i++) {
+            let itemLista = document.createElement('li');
+            itemLista.appendChild(document.createTextNode(nomes[i]));
+            lista.appendChild(itemLista);
+        }
+    }
+
+    </script>
+
+
+</body>
+</html>

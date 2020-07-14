@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades dos usuários</title>
+</head>
+<body>
+
+    <!--Usando JS obstrusivo-->
+    <script>
+    //ENUNCIADO: Dado o seguinte vetor de objetos:
+
+    var usuarios = [
+                {
+                    nome: "Diego",
+                    habilidades: ["Javascript", "ReactJS", "Redux"]
+                },
+                {
+                    nome: "Gabriel",
+                    habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+                }
+                   ];
+     
+                  
+        
+        //criacao de funcao
+        function mostraHabilidades(user){
+                for(users of user){
+                    console.log("O " + users.nome 
+                    + " possui as habilidades: " 
+                    + users.habilidades.join(", "));
+        }
+
+        }
+
+
+        //chamando a funcao
+        mostraHabilidades(usuarios);
+    </script>
+    
+
+</body>
+</html>

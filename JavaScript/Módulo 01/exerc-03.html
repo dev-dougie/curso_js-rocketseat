@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de vetor.</title>
+</head>
+
+<body>
+    <!--Usando JS obstrusivo-->
+    <script>
+    //ENUNCIADO: Escreva uma função que verifique se o vetor de habilidades passado possui a habilidade 'Javascript' e retorna um booleano true/false caso exista ou não.
+
+    //criacao do vetor habilidades
+    var habilidades = ['JavaScript', 'ReactJS', 'ReactNative'];
+
+    function temHabilidade(skills){                //realizando uma condicional para mostrar se possui ou não JavaScript como skill
+       return (skills.indexOf('JavaScript') !== -1) ? console.log('Possui JS') : console.log('Não possui JS');
+       
+    }
+
+    //chamada da função usando o parâmetro do meu array.
+     window.alert(temHabilidade(habilidades));
+
+
+    </script>
+    
+</body>
+</html>

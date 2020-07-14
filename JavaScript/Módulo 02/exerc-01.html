@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes</title>
+</head>
+<body>
+    
+    <button class = "botao" id = "botao">GERAR</button>
+     <div id="app">
+     <div class="box"></div>
+     </div>
+
+     <script>
+         //Crie um botão que ao ser clicado cria um novo elemento em tela com a forma de um quadrado
+        //vermelho com 100px de altura e largura. Sempre que o botão for clicado um novo quadrado deve
+        //aparecer na tela
+    
+    var btnClick = document.querySelector('#botao');
+    
+
+   btnClick.onclick = function(){
+    
+     newBox = document.createElement('div');
+      newBox.style.backgroundColor = "red";
+      newBox.style.width = '100px';
+      newBox.style.height= '100px';
+      newBox.style.border = '2px solid black';
+
+      newBox.classList.add('box');
+      document.body.appendChild(newBox);
+
+    }
+
+
+    </script>
+
+
+</body>
+</html>
